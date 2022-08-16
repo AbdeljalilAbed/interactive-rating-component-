@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+/* ; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    min-height: 100%;
+}
+h2{
+    font-weight: 700;
+    color: white;
+    
+}
+.text{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    font-weight: 400;
+}
+.container{
+    padding: 0.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 2rem;
+    max-width: 350px;
+    min-height: 350px;
+    background-color: hsl(213, 19%, 18%,0.7);
+    
+}
+.icon span{
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.rating .rate{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.rating{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* buttons */
+.rate{
+    border: none;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(216, 12%, 54%);
+        
+}
+.rate:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.btn{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: white;
+    padding: 0.85rem;
+    border-radius: 1.5rem;
+}
+.btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+.selected{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+/* thank you */
+.thank-you{
+    text-align: center;
+    position: absolute;
+    padding: 0.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 2rem;
+    max-width: 350px;
+    min-height: 350px;
+    background-color: hsl(213, 19%, 18%,0.7);
+
+}
+.your-rating p{
+    font-weight: 400;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    width: 50%;
+    margin: auto;
+    padding: 0.25rem;
+    border-radius: 1rem;
+}
+.heading h2{
+    font-weight: 700;
+}
+.text p{
+    width: 98%;
+}
+
+
